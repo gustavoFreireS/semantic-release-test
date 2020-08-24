@@ -5,7 +5,7 @@
     "@semantic-release/release-notes-generator",
     ["@semantic-release/github", {
       "assets": [
-        {"path": "dist/**", "label": "VTEX distribution"},
+        {"path": "dist", "label": "VTEX distribution"},
       ]
     }],
     ["@semantic-release/npm", {
