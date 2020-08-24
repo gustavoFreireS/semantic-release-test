@@ -4,9 +4,7 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     ["@semantic-release/github", {
-      "assets": [
-        {"path": "dist", "label": "VTEX distribution"},
-      ]
+      "assets": ["dist/**"]
     }],
     ["@semantic-release/npm", {
       "npmPublish": false,
